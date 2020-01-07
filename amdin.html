@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (c) 2020. By Bingo Studio
+  ~ Author: Lin Wang (wljimmy@hotmail.com)
+  -->
+
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bingo User Interface</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="BUI.css">
+</head>
+<body>
+<div id="BUI_LoadingMask" hidden>
+    BingoUI loading……
+</div>
+<div id="BUI_LoginMask" style="display:none !important;">
+    <div id="BUI_LoginBox">
+        <div id="BUI_LoginBox_Title" class="BUI_Color_MainText">
+            BingoUI管理员登录
+        </div>
+        <div id="BUI_LoginBox_UserName">
+            <input type="text"
+                   placeholder="User Name"
+                   id="user_name"
+                   name="user_name"
+                   autofocus
+                   title="User Name">
+        </div>
+        <div id="BUI_LoginBox_PWD">
+            <input type="password"
+                   placeholder="Password"
+                   id="pwd"
+                   name="pwd" title="Password">
+            <button id="BUI_LoginBox_LoginBtn">Login</button>
+        </div>
+        <div id="BUI_LoginBox_MSG"
+             title="">
+            请输入用户名和密码，如忘记密码请联系管理员！
+        </div>
+    </div>
+</div>
+</body>
+</html>

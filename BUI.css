@@ -1,0 +1,391 @@
+/*
+ * Copyright (c) 2020. By Bingo Studio
+ * Author: Lin Wang (wljimmy@hotmail.com)
+ */
+
+/*全局设置*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+@media (min-device-width: 960px) {
+    body {
+        min-width: 960px;
+    }
+}
+
+button {
+    border-style: solid;
+}
+
+/*1.色彩设置*/
+/*1.1 主要颜色*/
+.BUI_Color_Main, .BUI_Color_Main1 {
+    background-color: #dd6c1d;
+    color: #000000
+}
+.BUI_Color_MainText{
+    color:#dd6c1d;
+}
+
+.BUI_Color_Main2 {
+    background-color: #a5663a;
+    color: #000000
+}
+
+.BUI_Color_Main3, .BUI_Color_AlertBox {
+    background-color: #8f4109;
+    color: #ffffff
+}
+
+.BUI_Color_AlertText {
+    color: #dd6c1d
+}
+
+.BUI_Color_Main4 {
+    background-color: #ee9353;
+    color: #000000
+}
+
+.BUI_Color_Main5 {
+    background-color: #eeab7c;
+    color: #000000
+}
+
+.BUI_Color_Aux, .BUI_Color_Aux1 {
+    background-color: #dd981d;
+    color: #000000
+}
+
+.BUI_Color_Aux2 {
+    background-color: #a57f3a;
+    color: #000000
+}
+
+.BUI_Color_Aux3 {
+    background-color: #8f6009;
+    color: #000000
+}
+
+.BUI_Color_Aux4 {
+    background-color: #eeb653;
+    color: #000000
+}
+
+.BUI_Color_Aux5 {
+    background-color: #eec57c;
+    color: #000000
+}
+
+.BUI_Color_Com, .BUI_Color_Com1 {
+    background-color: #128a7a;
+    color: #000000
+}
+
+.BUI_Color_Com2 {
+    background-color: #24685f;
+    color: #ffffff
+}
+
+.BUI_Color_Com3 {
+    background-color: #065A4E;
+    color: #ffffff
+}
+
+.BUI_Color_Com4 {
+    background-color: #44C5B3;
+    color: #000000
+}
+
+.BUI_Color_Com5 {
+    background-color: #67C5B8;
+    color: #000000
+}
+
+.BUI_Color_ComAux, .BUI_Color_ComAux1 {
+    background-color: #1F4A92;
+    color: #ffffff
+}
+
+.BUI_Color_ComAux2 {
+    background-color: #2D456E;
+    color: #ffffff
+}
+
+.BUI_Color_ComAux3 {
+    background-color: #0A2A5F;
+    color: #ffffff
+}
+
+.BUI_Color_ComAux4 {
+    background-color: #527EC9;
+    color: #ffffff
+}
+
+.BUI_Color_ComAux5 {
+    background-color: #7292C9;
+    color: #000000
+}
+
+/*1.2 特殊部件颜色*/
+#BUI_LoginBox_UserName, #BUI_LoginBox_PWD, #BUI_LoginBox_LoginBtn {
+    border-color: #dd6c1d;
+}
+
+#BUI_LoginBox_LoginBtn {
+    background-color: #ffffff;
+    color: #dd6c1d;
+}
+
+#BUI_LoginBox_LoginBtn:hover,
+#BUI_LoginBox_LoginBtn:active {
+    background-color: #dd6c1d;
+    color: #ffffff;
+}
+
+/*2.固定组件*/
+/*2.1 读取蒙版*/
+#BUI_LoadingMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+    line-height: 20em;
+    vertical-align: center;
+    color: #fff;
+    z-index: 9999;
+}
+
+/*2.2 登录蒙版*/
+#BUI_LoginMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/yellow-surface-122458-2.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+@media (max-device-width: 960px) {
+    #BUI_LoginMask {
+        min-width: 360px;
+    }
+}
+
+@media (min-device-width: 960px) {
+    #BUI_LoginMask {
+        min-width: 800px;
+    }
+}
+
+/*2.3 登录框*/
+@media (max-device-width: 960px) {
+    #BUI_LoginBox {
+        height: 60%;
+        width: 100%;
+        background-color: rgba(0,0,0,.5);
+        color:#fff;
+        overflow: hidden;
+        position: absolute;
+        top: 20%;
+
+    }
+
+    #BUI_LoginBox_Title {
+
+        /*background-color: rgba(0,0,0,.5);*/
+    }
+
+    #BUI_LoginBox_UserName, #BUI_LoginBox_PWD {
+        margin: 0 5% 0 5%;
+        width: 90%;
+        height: 48px;
+        padding: 6px 5%;
+    }
+
+    #BUI_LoginBox_UserName {
+
+    }
+
+    #BUI_LoginBox_PWD {
+        top: 139px;
+    }
+
+    #BUI_LoginBox input {
+        width: 100%;
+
+
+    }
+
+    #BUI_LoginBox_PWD input {
+        width: 70%;
+    }
+
+    #BUI_LoginBox_LoginBtn {
+
+        width: 30%;
+
+    }
+
+    #BUI_LoginBox_MSG {
+
+        left: 5%;
+        top: 200px;
+        height: auto;
+        width: 90%;
+        white-space: normal;
+
+    }
+}
+
+@media (min-device-width: 960px) {
+    #BUI_LoginBox {
+        height: 248px;
+        width: 400px;
+        background-color: rgba(0, 0, 0, .5);
+        color: #fff;
+        border-radius: 24px;
+        overflow: hidden;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 5px #000;
+        -moz-box-shadow: 1px 1px 5px #000;
+        box-shadow: 1px 1px 5px #000;
+    }
+
+    #BUI_LoginBox_Title {
+
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    #BUI_LoginBox_UserName, #BUI_LoginBox_PWD {
+        width: 352px;
+        height: 48px;
+        padding: 6px 24px;
+    }
+
+    #BUI_LoginBox_UserName {
+        top: 92px;
+        left: 24px;
+        -webkit-border-radius: 24px 24px 0 0;
+        -moz-border-radius: 24px 24px 0 0;
+        border-radius: 24px 24px 0 0;
+    }
+
+    #BUI_LoginBox_PWD {
+        top: 139px;
+        left: 24px;
+        -webkit-border-radius: 0 0 24px 24px;
+        -moz-border-radius: 0 0 24px 24px;
+        border-radius: 0 0 24px 24px;
+    }
+
+    #BUI_LoginBox input {
+        width: 304px;
+
+    }
+
+    #BUI_LoginBox_PWD input {
+        width: 208px;
+    }
+
+    #BUI_LoginBox_LoginBtn {
+
+        width: 96px;
+
+    }
+
+    #BUI_LoginBox_MSG {
+
+        left: 36px;
+        top: 200px;
+        height: 24px;
+        width: 328px;
+        white-space: nowrap;
+
+    }
+}
+
+#BUI_LoginBox_Title {
+    /*padding: 8px;*/
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+    font-size: 36px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: auto 24px;
+    text-align: center;
+}
+
+#BUI_LoginBox_UserName, #BUI_LoginBox_PWD {
+    position: absolute;
+    background-color: #fff;
+
+    border-style: solid;
+    border-width: 1px;
+
+    line-height: 48px;
+    overflow: hidden;
+}
+
+#BUI_LoginBox input {
+    display: inline-block;
+    border: none;
+    background: none;
+    outline: none;
+
+    height: 36px;
+    font-size: 24px;
+
+}
+
+#BUI_LoginBox_LoginBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+    font-size: 24px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#BUI_LoginBox_MSG {
+    position: absolute;
+
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+#BUI_LoginBox_MSG::before {
+    content: '*'
+}
+
+/*3.活动组件*/
