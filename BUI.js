@@ -15,12 +15,14 @@ let BUI = {
     }
 };
 
-//测试函数
-function test() {
-    $('#BUI_LoadingMask').hidden;
 
+function test() {
+    $('#BUI_LoadingMask').hide();
+    $('#BUI_LoginMask').hide();
+    $('#BUI_MainContainer').hide();
 }
 
 $(document).ready(function () {
     BUI.sys.init();
+    test();
 });
