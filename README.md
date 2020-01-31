@@ -21,32 +21,32 @@ JQuery3.0 required
                     - 用户名 `#BUI_LoginBox_UserName`
                     - 密码 `#BUI_LoginBox_PWD`
                     - 提示框 `#BUI_LoginBox_MSG`
-            - 顶部标题栏`#BUI_Bannar`
-                - logo框`#BUI_Bannar_LogoBox`
-                - 状态提示栏`#BUI_Bannar_SysStatusBar`
-                - 用户状态栏`#BUI_Bannar_UserBox`
-            - 菜单栏`#BUI_Menu`
-                - 菜单栏控制按钮`#BUI_Menu_Control`
-                - 菜单列表`#BUI_Menu_List`
-                    - 首级菜单`#BUI_Menu_BaseMenu`
-                        - 内容`ul+li`
-                            - 子菜单`.BUI_Menu_SubMenu`
-                                - `ul+li`
-            - 内容区`#BUI_Content`
-                - 容器`.BUI_Content_Container`
-                - 表格`.BUI_Content_Table`
-                - 输入组件 Input
-                    - 数字输入 Number
-                    - 文本输入 text
-                    - 密码输入 Password
-                    - 选择框 Select
-                    - 单选框 Check-box
-                    - 复选框 Radio
-                    - 按钮 Button
-                        - 提交 Submit/OK
-                        - 清除 Clear
-                        - 重置 Reset
-                        - 普通 Button
+            - 主要内容容器 `#BUI_MainContainer`
+                - 顶部标题栏`#BUI_Banner`
+                    - logo框`#BUI_Banner_LogoBox`
+                    - 状态提示栏`#BUI_Banner_SysStatusBar`
+                    - 用户状态栏``
+                - 菜单栏`#BUI_Menu`
+                    - 菜单栏控制按钮`#BUI_Menu_Control`
+                    - 菜单列表`#BUI_Menu_List`
+                        - 首级菜单`.BUI_Menu_BaseMenu`
+                            - 内容`ul+li`
+                                - 子菜单`.BUI_Menu_SubMenu`
+                - 内容区`#BUI_Content`
+                    - 容器`.BUI_Content_Container`
+                    - 表格`.BUI_Content_Table`
+                    - 输入组件 Input
+                        - 数字输入 Number
+                        - 文本输入 text
+                        - 密码输入 Password
+                        - 选择框 Select
+                        - 单选框 Check-box
+                        - 复选框 Radio
+                        - 按钮 Button
+                            - 提交 Submit/OK
+                            - 清除 Clear
+                            - 重置 Reset
+                            - 普通 Button
              
         2. 活动组件
             - 蒙版

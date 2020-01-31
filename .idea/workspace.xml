@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9a513c3-c22c-489f-9546-c5d21a66c581" name="Default" comment="1. Finish Login Box">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/BUI.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amdin.html" beforeDir="false" afterPath="$PROJECT_DIR$/amdin.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.47025266">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="amdin.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/amdin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BUI.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BUI.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BUI.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BUI.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1225">
+                  <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#87#0" />
+                    <element signature="e#437#490#0" />
+                    <element signature="e#510#532#0" />
+                    <element signature="e#551#604#0" />
+                    <element signature="e#644#697#0" />
+                    <element signature="e#720#742#0" />
+                    <element signature="e#761#814#0" />
+                    <element signature="e#833#886#0" />
+                    <element signature="e#920#973#0" />
+                    <element signature="e#991#1044#0" />
+                    <element signature="e#1062#1115#0" />
+                    <element signature="e#1133#1186#0" />
+                    <element signature="e#1204#1257#0" />
+                    <element signature="e#1291#1344#0" />
+                    <element signature="e#1362#1415#0" />
+                    <element signature="e#1433#1486#0" />
+                    <element signature="e#1504#1557#0" />
+                    <element signature="e#1575#1628#0" />
+                    <element signature="e#1668#1721#0" />
+                    <element signature="e#1742#1795#0" />
+                    <element signature="e#1816#1869#0" />
+                    <element signature="e#1890#1943#0" />
+                    <element signature="e#1964#2017#0" />
+                    <element signature="e#2100#2130#0" />
+                    <element signature="e#2155#2209#0" />
+                    <element signature="e#2271#2325#0" />
+                    <element signature="e#2368#2591#0" />
+                    <element signature="e#2621#2961#0" />
+                    <element signature="e#5178#5439#0" />
+                    <element signature="e#5483#5633#0" />
+                    <element signature="e#5655#5785#0" />
+                    <element signature="e#5810#6071#0" />
+                    <element signature="e#6091#6226#0" />
+                    <element signature="e#6254#6274#0" />
+                    <element signature="e#4160#4193#0" />
+                    <element signature="e#4381#4414#0" />
+                    <element signature="e#5354#5682#0" />
+                    <element signature="e#5708#5763#0" />
+                    <element signature="e#5811#5889#0" />
+                    <element signature="e#5918#6091#0" />
+                    <element signature="e#6115#6289#0" />
+                    <element signature="e#6315#6345#0" />
+                    <element signature="e#6375#6404#0" />
+                    <element signature="e#6433#6463#0" />
+                    <element signature="e#6487#6609#0" />
+                    <element signature="e#5758#5791#0" />
+                    <element signature="e#5951#6135#0" />
+                    <element signature="e#6161#6215#0" />
+                    <element signature="e#6263#6364#0" />
+                    <element signature="e#6393#6401#0" />
+                    <element signature="e#6425#6452#0" />
+                    <element signature="e#6478#6508#0" />
+                    <element signature="e#6538#6565#0" />
+                    <element signature="e#6594#6623#0" />
+                    <element signature="e#6647#6765#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="406">
+                    <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Bannar</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Banner</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lin Wang &lt;43714750+wljimmy@users.noreply.github.com&gt;" />
+        <option value="Lin" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BUI.css" />
+        <option value="$PROJECT_DIR$/amdin.html" />
+        <option value="$PROJECT_DIR$/BUI.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BingoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BingoUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BingoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BingoUI" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BingoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="BingoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="jq3.js" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9a513c3-c22c-489f-9546-c5d21a66c581" name="Default" comment="" />
+      <created>1578379543141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578379543141</updated>
+      <workItem from="1578379544381" duration="19650000" />
+      <workItem from="1578414501723" duration="2672000" />
+      <workItem from="1580377282569" duration="2846000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. Finish Login Box">
+      <created>1578414549886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578414549886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25168000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.32969698" />
+      <window_info anchor="right" id="Json Parser" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985694" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="1024 Tools" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
+      <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954792" visible="true" weight="0.1223176" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info x="131" y="454" width="167" height="412" id="Structure" order="1" sideWeight="0.5045208" side_tool="true" visible="true" weight="0.1223176" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Finish Login Box" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Finish Login Box" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/amdin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#87#0" />
+            <element signature="e#437#490#0" />
+            <element signature="e#510#532#0" />
+            <element signature="e#551#604#0" />
+            <element signature="e#644#697#0" />
+            <element signature="e#720#742#0" />
+            <element signature="e#761#814#0" />
+            <element signature="e#833#886#0" />
+            <element signature="e#920#973#0" />
+            <element signature="e#991#1044#0" />
+            <element signature="e#1062#1115#0" />
+            <element signature="e#1133#1186#0" />
+            <element signature="e#1204#1257#0" />
+            <element signature="e#1291#1344#0" />
+            <element signature="e#1362#1415#0" />
+            <element signature="e#1433#1486#0" />
+            <element signature="e#1504#1557#0" />
+            <element signature="e#1575#1628#0" />
+            <element signature="e#1668#1721#0" />
+            <element signature="e#1742#1795#0" />
+            <element signature="e#1816#1869#0" />
+            <element signature="e#1890#1943#0" />
+            <element signature="e#1964#2017#0" />
+            <element signature="e#2100#2130#0" />
+            <element signature="e#2155#2209#0" />
+            <element signature="e#2271#2325#0" />
+            <element signature="e#2368#2591#0" />
+            <element signature="e#2621#2961#0" />
+            <element signature="e#5178#5439#0" />
+            <element signature="e#5483#5633#0" />
+            <element signature="e#5655#5785#0" />
+            <element signature="e#5810#6071#0" />
+            <element signature="e#6091#6226#0" />
+            <element signature="e#6254#6274#0" />
+            <element signature="e#4160#4193#0" />
+            <element signature="e#4381#4414#0" />
+            <element signature="e#5354#5682#0" />
+            <element signature="e#5708#5763#0" />
+            <element signature="e#5811#5889#0" />
+            <element signature="e#5918#6091#0" />
+            <element signature="e#6115#6289#0" />
+            <element signature="e#6315#6345#0" />
+            <element signature="e#6375#6404#0" />
+            <element signature="e#6433#6463#0" />
+            <element signature="e#6487#6609#0" />
+            <element signature="e#5758#5791#0" />
+            <element signature="e#5951#6135#0" />
+            <element signature="e#6161#6215#0" />
+            <element signature="e#6263#6364#0" />
+            <element signature="e#6393#6401#0" />
+            <element signature="e#6425#6452#0" />
+            <element signature="e#6478#6508#0" />
+            <element signature="e#6538#6565#0" />
+            <element signature="e#6594#6623#0" />
+            <element signature="e#6647#6765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amdin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#87#0" />
+            <element signature="e#437#490#0" />
+            <element signature="e#510#532#0" />
+            <element signature="e#551#604#0" />
+            <element signature="e#644#697#0" />
+            <element signature="e#720#742#0" />
+            <element signature="e#761#814#0" />
+            <element signature="e#833#886#0" />
+            <element signature="e#920#973#0" />
+            <element signature="e#991#1044#0" />
+            <element signature="e#1062#1115#0" />
+            <element signature="e#1133#1186#0" />
+            <element signature="e#1204#1257#0" />
+            <element signature="e#1291#1344#0" />
+            <element signature="e#1362#1415#0" />
+            <element signature="e#1433#1486#0" />
+            <element signature="e#1504#1557#0" />
+            <element signature="e#1575#1628#0" />
+            <element signature="e#1668#1721#0" />
+            <element signature="e#1742#1795#0" />
+            <element signature="e#1816#1869#0" />
+            <element signature="e#1890#1943#0" />
+            <element signature="e#1964#2017#0" />
+            <element signature="e#2100#2130#0" />
+            <element signature="e#2155#2209#0" />
+            <element signature="e#2271#2325#0" />
+            <element signature="e#2368#2591#0" />
+            <element signature="e#2621#2961#0" />
+            <element signature="e#5178#5439#0" />
+            <element signature="e#5483#5633#0" />
+            <element signature="e#5655#5785#0" />
+            <element signature="e#5810#6071#0" />
+            <element signature="e#6091#6226#0" />
+            <element signature="e#6254#6274#0" />
+            <element signature="e#4160#4193#0" />
+            <element signature="e#4381#4414#0" />
+            <element signature="e#5354#5682#0" />
+            <element signature="e#5708#5763#0" />
+            <element signature="e#5811#5889#0" />
+            <element signature="e#5918#6091#0" />
+            <element signature="e#6115#6289#0" />
+            <element signature="e#6315#6345#0" />
+            <element signature="e#6375#6404#0" />
+            <element signature="e#6433#6463#0" />
+            <element signature="e#6487#6609#0" />
+            <element signature="e#5758#5791#0" />
+            <element signature="e#5951#6135#0" />
+            <element signature="e#6161#6215#0" />
+            <element signature="e#6263#6364#0" />
+            <element signature="e#6393#6401#0" />
+            <element signature="e#6425#6452#0" />
+            <element signature="e#6478#6508#0" />
+            <element signature="e#6538#6565#0" />
+            <element signature="e#6594#6623#0" />
+            <element signature="e#6647#6765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="406">
+            <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1225">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#87#0" />
+            <element signature="e#437#490#0" />
+            <element signature="e#510#532#0" />
+            <element signature="e#551#604#0" />
+            <element signature="e#644#697#0" />
+            <element signature="e#720#742#0" />
+            <element signature="e#761#814#0" />
+            <element signature="e#833#886#0" />
+            <element signature="e#920#973#0" />
+            <element signature="e#991#1044#0" />
+            <element signature="e#1062#1115#0" />
+            <element signature="e#1133#1186#0" />
+            <element signature="e#1204#1257#0" />
+            <element signature="e#1291#1344#0" />
+            <element signature="e#1362#1415#0" />
+            <element signature="e#1433#1486#0" />
+            <element signature="e#1504#1557#0" />
+            <element signature="e#1575#1628#0" />
+            <element signature="e#1668#1721#0" />
+            <element signature="e#1742#1795#0" />
+            <element signature="e#1816#1869#0" />
+            <element signature="e#1890#1943#0" />
+            <element signature="e#1964#2017#0" />
+            <element signature="e#2100#2130#0" />
+            <element signature="e#2155#2209#0" />
+            <element signature="e#2271#2325#0" />
+            <element signature="e#2368#2591#0" />
+            <element signature="e#2621#2961#0" />
+            <element signature="e#5178#5439#0" />
+            <element signature="e#5483#5633#0" />
+            <element signature="e#5655#5785#0" />
+            <element signature="e#5810#6071#0" />
+            <element signature="e#6091#6226#0" />
+            <element signature="e#6254#6274#0" />
+            <element signature="e#4160#4193#0" />
+            <element signature="e#4381#4414#0" />
+            <element signature="e#5354#5682#0" />
+            <element signature="e#5708#5763#0" />
+            <element signature="e#5811#5889#0" />
+            <element signature="e#5918#6091#0" />
+            <element signature="e#6115#6289#0" />
+            <element signature="e#6315#6345#0" />
+            <element signature="e#6375#6404#0" />
+            <element signature="e#6433#6463#0" />
+            <element signature="e#6487#6609#0" />
+            <element signature="e#5758#5791#0" />
+            <element signature="e#5951#6135#0" />
+            <element signature="e#6161#6215#0" />
+            <element signature="e#6263#6364#0" />
+            <element signature="e#6393#6401#0" />
+            <element signature="e#6425#6452#0" />
+            <element signature="e#6478#6508#0" />
+            <element signature="e#6538#6565#0" />
+            <element signature="e#6594#6623#0" />
+            <element signature="e#6647#6765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amdin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Lin Wang</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -11,13 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bingo User Interface</title>
     <script src="jquery-3.4.1.min.js"></script>
+    <script src="BUI.js"></script>
     <link rel="stylesheet" href="BUI.css">
 </head>
 <body>
-<div id="BUI_LoadingMask" hidden>
+<!--loading蒙版已经完成，隐藏-->
+<div id="BUI_LoadingMask" >
     BingoUI loading……
 </div>
-<div id="BUI_LoginMask" style="display:none !important;">
+<!--login蒙版已经完成，隐藏-->
+<div id="BUI_LoginMask" >
     <div id="BUI_LoginBox">
         <div id="BUI_LoginBox_Title" class="BUI_Color_MainText">
             BingoUI管理员登录
@@ -40,6 +43,43 @@
         <div id="BUI_LoginBox_MSG"
              title="">
             请输入用户名和密码，如忘记密码请联系管理员！
+        </div>
+    </div>
+</div>
+<!--主页面结构-->
+<div id="BUI_MainContainer">
+    <div id="BUI_Banner">
+        <div id="BUI_Banner_LogoBox">logo box</div>
+        <div id="BUI_Banner_SysStatusBar">sys status bar</div>
+        <div id="BUI_Banner_UserBox">user box</div>
+    </div>
+    <div id="BUI_Menu">
+        <div id="BUI_Menu_Control">menu control</div>
+        <div id="BUI_Menu_List">
+            <div class="BUI_Menu_BaseMenu">menu1</div>
+            <ul>
+                <li class="BUI_Menu_SubMenu">1-1</li>
+                <li class="BUI_Menu_SubMenu">1-2</li>
+                <li class="BUI_Menu_SubMenu">1-3</li>
+            </ul>
+            <div class="BUI_Menu_BaseMenu">menu2</div>
+            <ul>
+                <li class="BUI_Menu_SubMenu">2-1</li>
+                <li class="BUI_Menu_SubMenu">2-2</li>
+                <li class="BUI_Menu_SubMenu">2-3</li>
+            </ul>
+            <div class="BUI_Menu_BaseMenu">menu3</div>
+            <ul>
+                <li class="BUI_Menu_SubMenu">3-1</li>
+                <li class="BUI_Menu_SubMenu">3-2</li>
+                <li class="BUI_Menu_SubMenu">3-3</li>
+            </ul>
+            <div class="BUI_Menu_BaseMenu">menu4</div>
+            <ul>
+                <li class="BUI_Menu_SubMenu">4-1</li>
+                <li class="BUI_Menu_SubMenu">4-2</li>
+                <li class="BUI_Menu_SubMenu">4-3</li>
+            </ul>
         </div>
     </div>
 </div>
